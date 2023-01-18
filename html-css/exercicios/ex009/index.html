@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--O comando alt + lo abre as páginas do VS-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <hr>
+        <h2>Listas Ordenadas ol</h2>
+        <!--A tag OL cria uma lista ordenada-->
+            <ol>
+                <!--A tag li cria os itens da lista
+                fechar com </li> é opcional-->
+                <li>Acodrdar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café</li>
+            </ol>
+            <!--O parãmetro type personaliza a enumeração da lista: 1, A, a, I, i-->
+            <ol type="i">
+                <li>Acodrdar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café</li>
+            </ol>
+        <h2>Listas não Ordenadas ul</h2>
+        <!--A tag ul cria uma lista não ordenada-->
+            <ul>
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Banana</li>
+                <li>Cenoura</li>
+            </ul>
+            <!--Existem 3 opções de type para a tag UL: disc, circle, square-->
+            <ul type="square">
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Banana</li>
+                <li>Cenoura</li>
+            </ul>
+        <h2>Juntando Listas 1.0</h2>
+            <h3>Minhas longuagens favoritas</h3>
+                <ol>
+                    <li>Antigas</li>
+                        <ol type="a">
+                            <li>Clipper</li>
+                            <li>Visual basic</li>
+                            <li>Fortran</li>
+                            <li>Delphi</li>
+                        </ol>
+                    <li>Novas</li>
+                    <!--O parãmetro start="" indica de qual valor a lista começará-->
+                        <ol type="a" start="5">
+                            <li>PHP</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Kotlin</li>
+                        </ol>
+                </ol>
+            <h2>Meus jogos favoritos</h2>
+            <!--Para selecionar mais de uma tag: clicar depois do o <ol>, segurar o alt e selecionar as tags a serem alteradas, apagar e digitar novamete-->
+                <ol>
+                    <li>SNES</li>
+                        <ul type="square">
+                            <li>Joe e Mack</li>
+                        </ul>
+                    <li>PlayStation 2</li>
+                        <ul type="square">
+                            <li>GTA</li>
+                                <ul type="disc">
+                                    <li>GTA San Andreas</li>
+                                    <li>GTA Vice City</li>
+                                </ul>
+                            <li>PES</li>
+                                <ul type="disc">
+                                    <li>PES 2011</li>
+                                    <li>PES 2014</li>
+                                </ul>
+                            <li>Bee Movie</li>
+                        </ul>
+                </ol>
+            <h2>Lista de Definições</h2>
+            <!--A tag dl cria uma lista definida-->
+                <dl>
+                    <!--A primeira tag dt é o termo-->
+                    <dt>HTML</dt>
+                    <!--A segunda tag dd é a definição-->
+                    <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+                    <dt>CSS</dt>
+                    <dd>Linguagem de marcação para a criação do design de um site.</dd>
+                    <dt>JavaScript</dt>
+                    <dd>Linguagem de programação para a criação e interatividade de um site.</dd>
+                </dl>
+</body>
+</html>
